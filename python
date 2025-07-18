@@ -15,7 +15,7 @@ WITH cte_emp_projects AS (
     e.emp_id,
     e.name,
     e.department,
-    p.product_id,
+
     pr.product_name,
     p.store_id,
     s.store_name,
